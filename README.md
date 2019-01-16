@@ -6,6 +6,6 @@ Mario Hiebl-Rausch
 
 Max Hilzensauer
 
-King Chiini 
+Chiini 
 
 Anja
