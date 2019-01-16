@@ -1,1 +1,3 @@
 # GitCommitSuicide
+
+Fabian Kuhn
