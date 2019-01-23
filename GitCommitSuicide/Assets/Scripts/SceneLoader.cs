@@ -21,5 +21,11 @@ public class SceneLoader : MonoBehaviour {
     {
         SceneManager.LoadScene((int)Scenes.End);
     }
-    
+
+    public void QuitGame ()
+    {
+        Application.Quit();
+        Debug.Log("Quit");
+    }
+
 }
