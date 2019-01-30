@@ -3,23 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Threading;
+using TMPro;
 
 public class Time : MonoBehaviour
 {
 
     public int timeLeft = 60;
-    public Text countdown;
+    public TextMeshProUGUI countdown;
 
     void Start()
     {
         StartCoroutine("LoseTime");
-        // Time.timeScale = 1;
 
     }
 
     void Update()
     {
-        countdown.text = ("" + timeLeft);
+        countdown.text = ("Time: " + timeLeft);
 
     }
 
