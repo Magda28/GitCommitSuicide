@@ -4,21 +4,20 @@ using TMPro;
 
 public class Time : MonoBehaviour
 {
-
     public int timeLeft = 60;
     public TextMeshProUGUI countdown;
 
-    void Start()
+    void Start ()
     {
         StartCoroutine("LoseTime");
     }
 
-    void Update()
+    void Update ()
     {
         countdown.text = ("Time: " + timeLeft);
     }
 
-    IEnumerator LoseTime()
+    IEnumerator LoseTime ()
     {
         while (true)
         {
