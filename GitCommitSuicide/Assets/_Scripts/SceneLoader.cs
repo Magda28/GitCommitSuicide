@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneLoader : MonoBehaviour {
-
+public class SceneLoader : MonoBehaviour 
+{
     enum Scenes { Start, Main, End };
 
     public void LoadStartScene()
@@ -22,10 +20,9 @@ public class SceneLoader : MonoBehaviour {
         SceneManager.LoadScene((int)Scenes.End);
     }
 
-    public void QuitGame ()
+    public void QuitGame()
     {
         Application.Quit();
-        Debug.Log("Quit");
     }
 
 }

@@ -1,8 +1,5 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using System.Threading;
 using TMPro;
 
 public class Time : MonoBehaviour
@@ -14,13 +11,11 @@ public class Time : MonoBehaviour
     void Start()
     {
         StartCoroutine("LoseTime");
-
     }
 
     void Update()
     {
         countdown.text = ("Time: " + timeLeft);
-
     }
 
     IEnumerator LoseTime()
