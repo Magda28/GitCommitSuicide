@@ -13,3 +13,20 @@ Unity Version: 2018.2.14f1
 Visual Studio Version: 7.6.11.9
 
 Maskottchen: Mario Hiebl-Rausch, Max Hilzensauer
+
+Title: GitCommitSuicide;
+Members: Magdalena Schlichtinger, Marija Milenkovic, Habakuk Kirschhofer;
+Progress in percent: 65%;
+Developement Platform: OS;
+Unity Version 2018.2.14f1;
+Microsoft Visual Studio Community 2017 Version 15.9.6;
+Project: 2D
+Target platform: WebGL
+Reference Resolution: Desktop 16:9
+Screenshot-location: MyFirstGitProject\Assets\Screenshots;
+Game Control: Mouse or Arrow Keys
+Third Party Material: None
+Limitations:
+Lessons learned: Coding is way more complex than we thought. PlayMaker would have been easier to use and more efficient.
+Never trust a running system;
+Copyright: ©GitCommitSuicide GmbH
