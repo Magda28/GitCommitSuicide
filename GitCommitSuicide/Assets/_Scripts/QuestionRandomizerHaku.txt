@@ -1,0 +1,17 @@
+public void ChangeText()
+{
+list<string> questions = new List<string>();
+
+questions.Add("Was bedeuted HTML");
+questions.Add("Was bedeuted HTML");
+questions.Add("Was bedeuted HTML");
+questions.Add("Was bedeuted HTML");
+questions.Add("Was bedeuted HTML");
+
+int questionNumber = Random.Range(0,5);
+Debug.log(questionNumber);
+var QuestionRandom = GameObject.Find("QuestionDisplay");
+var text = QuestionRandom.GetComponent<Text>();
+text.text = questions[questionNumber];
+}
+}
